@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kind-words",
+      "handler": "kind-words.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kind-words",
+      "handler": "kind-words.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kind-words",
+      "handler": "kind-words.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
